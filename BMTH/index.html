@@ -1,11 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMTH</title>
+    <link rel="favicon icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body id="body">
+    <ul class="menu" id="up"> 
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="index2.html">Альбомы</a></li>
+        <li><a href="https://bmth2021.ru/" target="_blank">Концерты 2021</a></li>
+        <li><a href="index3.html">Контакты</a></li>
+    </ul>
+
+    <ul class="menu subMenu">
+        <li><a href="#band">Bring me the Horizon</a></li>
+        <li><a href="#members">Состав</a></li>
+        <li><a href="#release">Последние релизы</a></li>
+        <li><a href="#tour">Даты тура</a></li>
+        <li><a href="#photo">Фото</a></li>
+    </ul>
+
+<div class="up"><a href="#up"><img src="pic/svg/arrowUp.svg" width="70" height="70"></a></div>
+
+    <div class="box logo">
+        <!-- <img src="pic/Untitled1_1.gif" alt="logo" width="740px" height="428px"> -->
+    </div>
+
+    <div class="box" id="band">
+        <img src="pic/main.png" alt="Bring me the Horizon band" height="1050px" width="880px" >
+        <div class="description">
+            <img src="pic/bringmethehorizonlogo.png" alt="Bring me the Horizon" width="968px" height="228px">
+            <h1>Британская рок-группа из Шеффилда, Йоркшира, основанная в 2004 году.</h1>
+            <p>На протяжении карьеры участники старались экспериментировать со звучанием: ранние релизы имели более тяжёлый звук и были классифицированы как дэткор и металкор. Позднее в звучание группы добавились элементы мелодичного хардкора, альтернативного, электронного и пост-рока.</p>
+            <button onclick="document.location=`index2.html`">Слушать</button>
+        </div>
+    </div>
+
+
+
+   <div class="box noFlex" > 
+       <div id="members"></div>
+       <div class="cards">
+        <div class="card"> <h2 class="name2">Состав группы:</h2> </div>
+        <div class="card noFlex"><img src="pic/members/oli.png"><h3>Оливер Сайкс - вокал</h3></div>
+        <div class="card"><img src="pic/members/fish.png"><h3>Джордан Фиш - клавишные</h3></div>
+        <div class="card"><img src="pic/members/li.png"><h3>Ли Малиа - гитара</h3></div>
+        <div class="card"><img src="pic/members/mattN.png"><h3>Мэтт Никколс - ударные</h3></div>
+        <div class="card"><img src="pic/members/mattK.png"><h3>Мэтт Кин - басгитара</h3></div>
+       </div>
+
+   </div>  <!-- Состав -->
+
+
+
+<div class="newAlbum" id="release">
+  <div class="darken">
+    <div class="box noFlex">
+        <h2>Новый альбом <span>POST HUMAN: SURVIVAL HORROR</span></h2> <br>
+        <h5>Релиз состоялся 30 октября 2020 г.</h5>
+            <div class="album">
+                <!-- <img src="pic/PostHuman.png" alt="Альбом Post Human" width="950" height="950"> -->
+                <iframe src="https://open.spotify.com/embed/album/0e1WaSNDZnoPixaxDNdWo4" width="950" height="400" frameborder="0" allowtdansparency="tdue" allow="encrypted-media"></iframe>
+            </div>
+        
+    </div>
+
+    <!-- <div class="box noFlex"> -->
+        <!-- <h2>Новый клип на песню <span>Teardrops</span></h2> <br>
+        <h5>Дата премьеры: 22 октября 2020 г.</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L5uV3gmOH9g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+    </div>
+ </div>
+</div>
+
+    <div class="box noFlex" id="tour">
+        <h4>Ближайшие концерты:</h4>
+        <table>
+            <tr>
+                <th><h3>Дата</h3></th>
+                <th><h3>Город</h3></th>
+                <th><h3>Место</h3></th>
+            </tr>
+            <tr>
+                <td>18 мая 2021</td>
+                <td>Новосибирск</td>
+                <td>Локомотив Арена</td>
+            </tr>
+            <tr>
+                <td>20 мая 2021</td>
+                <td>Екатеринбург</td>
+                <td>Конгресс-центр</td>
+            </tr>
+            <tr>
+                <td>22 мая 2021</td>
+                <td>Казань</td>
+                <td>Татнефть Арена</td>
+            </tr>
+            <tr>
+                <td>23 мая 2021</td>
+                <td>Самара</td>
+                <td>МТЛ Арена</td>
+            </tr>
+            <tr>
+                <td>25 мая 2021</td>
+                <td>Краснодар</td>
+                <td>ДС Олимп</td>
+            </tr>
+            <tr>
+                <td>26 мая 2021</td>
+                <td>Воронеж</td>
+                <td>Event Hall</td>
+            </tr>
+            <tr>
+                <td>28 мая 2021</td>
+                <td>Санкт-Петербург</td>
+                <td>СК Юбилейный</td>
+            </tr>
+            <tr>
+                <td>29 мая 2021</td>
+                <td>Москва</td>
+                <td>ДС Мегаспорт</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <button class="tickets"><a  href="https://bmth2021.ru/" target="_blank">Билеты</a></button></td>
+                <td></td>
+            </tr>
+        </table>
+   
+    </div>
+
+    <div class="box m0 imgPick" id="photo">
+        <!-- <img src="pic/green.png"> -->
+        <button class="btn" onclick="Bg()" ></button>
+        <button class="btn" onclick="Bg2()"></button>
+        <button class="btn" onclick="Bg3()" ></button>
+        <button class="btn" onclick="Bg4()" ></button>
+        <button class="btn" onclick="Bg5()" ></button>
+        <button class="btn" onclick="Bg6()" ></button>
+    </div>
+
+
+    <div class="footer">
+    <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="index2.html">Альбомы</a></li>
+        <li><a href="https://bmth2021.ru/" target="_blank">Концерты 2021</a></li>
+        <li><a href="index3.html">Контакты</a></li>
+    </ul>
+     <h5>©2020  |  2Р4.20  | Нешитова | Швецов<h5>
+</div>
+    <script>
+        function Bg(){
+    document.getElementById("photo").style.background = "url(pic/green.png)";
+    document.getElementById("photo").style.backgroundRepeat = "no-repeat";
+    document.getElementById("photo").style.backgroundSize = "cover";
+    document.getElementById("body").style.background = "linear-gradient(black 70%, green)";
+    }
+       function Bg2(){
+        document.getElementById("photo").style.background = "url(pic/red.png)";
+        document.getElementById("photo").style.backgroundRepeat = "no-repeat";
+        document.getElementById("photo").style.backgroundSize = "cover";
+        document.getElementById("body").style.background = "linear-gradient(black 70%, red)";
+    }
+       function Bg3(){
+        document.getElementById("photo").style.background = "url(pic/green2.png)";
+        document.getElementById("photo").style.backgroundRepeat = "no-repeat";
+        document.getElementById("photo").style.backgroundSize = "cover";
+        document.getElementById("body").style.background = "linear-gradient(black 70%, rgb(131, 255, 131))";
+    }
+       function Bg4(){
+        document.getElementById("photo").style.background = "url(pic/light.png)";
+        document.getElementById("photo").style.backgroundRepeat = "no-repeat";
+        document.getElementById("photo").style.backgroundSize = "cover";
+        document.getElementById("body").style.background = "linear-gradient(black 70%,rgb(255, 225, 169)";
+    }
+       function Bg5(){
+        document.getElementById("photo").style.background = "url(pic/oli_yungblud.jpg)";
+        document.getElementById("photo").style.backgroundRepeat = "no-repeat";
+        document.getElementById("photo").style.backgroundSize = "cover";
+        document.getElementById("body").style.background = "linear-gradient(black 70%, rgb(54, 56, 52))";
+    }
+       function Bg6(){
+        document.getElementById("photo").style.background = "url(pic/bmth-teardrops.jpg)";
+        document.getElementById("photo").style.backgroundRepeat = "no-repeat";
+        document.getElementById("photo").style.backgroundSize = "cover";
+        document.getElementById("body").style.background = "linear-gradient(black 70%,rgb(90, 39, 18))";
+    }
+    </script>
 </body>
 </html>

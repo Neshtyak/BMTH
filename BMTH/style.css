@@ -1,3 +1,337 @@
 body {
+    margin: 0;
+    /* background: #000; */
+    background-image: linear-gradient(black 70%, green);
+    /* background-image: linear-gradient(black 70%,rgb(90, 39, 18)); */
+}
+.up{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+.menu{
+    padding: 0;
+    list-style-type: none;
+    color:white;
+    font-size: 0;
+    display: flex;
+}
+a{
+    color: inherit; 
+    text-decoration: none;
+}
+.menu li{
+    /* border: 1px solid; */
+    width: calc( 100% / 4);
+    height: 70px;
+    font: 25px sans-serif;
+    text-align: center;
+    line-height: 50px; /* костыль типа шоб посредине было круто да */
+}
+.menu a:hover{
+    background-color:chocolate;
+    display: block;
+    /* color: #000; */
+}
+.subMenu li{
+    font-size: 20px;
+    color: rgb(209, 88, 1);
+    width: calc( 100% / 5);
+    height: 50px;
+}
+.subMenu a:hover{
+    background-color: #000;
+    color: #fff;
+    
+}
+.box {
+    /* background: red; */
+    min-height: 250px;
+    margin: 0  0 10px;
+    display: flex;
+}
+.noFlex{
+    display: block;
+}
+.m0 {
+    margin-bottom: 0;
+}
+.logo{
+    /* padding: 200px 30vw;
+    background: #000; */
+    background-image: url(pic/Untitled1_1.gif);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    /* background-size: cover; */
+    height: 800px;
+}
+.description{
+ margin: 10px 0 0 20px;
+ border: 1px solid;
+}
+h1{
+    margin: 190px 0 70px;
+    color: white;
+    font: 45px sans-serif;
+    text-align: center;
+}
+h2{
+    margin: 100px 50px 0 ;
+    padding: 20px 0 0;
+    color: wheat;
+    font: 700 35px sans-serif;
+    text-shadow: 4px 4px 5px #000;
+}
+h3{
+    padding: 25px 0;
+    color:purple;
+    font: 700 35px sans-serif;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+h4{
+    margin: 10px 50px 0 ;
+    padding: 20px 0;
+    color:green;
+    font: 700 35px sans-serif;
+}
+h5{
+    margin: 0 50px 10px;
+    color: white;
+    font: 20px serif;
+    text-shadow: 4px 4px 6px #000;
+}
+span{
+    color: rgb(255, 106, 0);
+}
+p{
+    padding: 0 50px;
+    color: wheat;
+    font: 30px sans-serif;
+    text-align: center;
+}
+button{
+    background: darkorange;
+    margin:50px 40% 0;
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-radius: 70px;
+    color: rgb(213, 74, 0);
+    font: 700 35px sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.5s 0s ease-in;
+
+}
+button:hover {
+    color: wheat;
+    transform: scale(1.1)
+}
+.tickets{
+    background: rgb(73, 181, 46);
+    margin: 0;
+    color: purple;
+    width: 200px;
+}
+.newAlbum{
+    background-image: url(pic/album/PostHuman.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.album{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    padding:100px 0 50px;
+}
+.darken{
+    background: rgba(0, 0, 0, 0.5);
+}
+table{
+    margin: 0 auto;
+    border-spacing: 25px;
+}
+td{
+    color:greenyellow;
+    font: 25px sans-serif;
+    text-shadow: 4px 4px 6px #000;
+    text-align: center;
+}
+.btn{
+    margin: 30px 10px;
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.imgPick{
+    background-image: url(pic/green.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+.footer{
+    margin: 0;
+    height: 200px;
     background: #000;
+}
+.footer h5{
+    padding: 50px 0 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+
+                  /* album page*/
+
+.subAlbums  li{
+    width: calc(100% / 8);
+}
+.ms{
+    min-height: 150px;
+    /* padding: 0 200px; */
+}
+.albumName{
+    margin: 20px 20px 0;
+    width: 50%;
+    text-align: center;
+    padding: 50px 20px 0;
+    font-size: 50px;
+    color: chocolate;
+    text-shadow: 2px 2px 2px wheat;
+    /* text-shadow: 2px 2px 4px rgb(0, 0, 0); */
+}
+.name2{
+    color: wheat;
+    text-shadow: 2px 2px 2px chocolate;
+    /* text-shadow: 2px 2px 4px rgb(0, 0, 0); */
+}
+.musicTo{
+    font-size: 25px;
+}
+.date{
+    margin: 100px 300px 0;
+}
+
+.frame{
+    font-size: 40px;
+    margin: 150px auto 200px;
+    box-shadow: 5px 5px 0px wheat;
+}
+
+.bg{
+    background-image: linear-gradient(black,rgb(89, 7, 7),black, black);
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.wrapperContacts{
+    background-image: url(pic/black.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 1750px;
+}
+
+                /* contact page */
+.media{
+    margin: 200px auto 0;
+    width: 80%;
+}
+.media a{
+   width: calc(100% / 5);
+}
+
+
+
+#members{
+    height: 150px;
+}
+.cards {
+    margin: 0 150px 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.card {
+    overflow: hidden;
+    height: 350px;
+    /* width: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: cornsilk; */
+    /* border-radius: 10px; */
+    filter: grayscale();
+    /* cursor: pointer; */
+    transition: transform 0.2s 0s ease-in;  
+}
+.card h2 {
+    margin: 0 auto;
+    font-size: 45px;
+}
+.card h3{
+    text-align: center;
+    color: forestgreen;
+    /* margin-top: 170px; */
+    padding: 0 0;
+    font-size: 35px;
+    /* transform: rotate(-90deg);
+    transform-origin: top left; */
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.6;  
+}
+.card:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+
+}
+.card:hover img {
+    opacity: 1;
+}
+
+.card:nth-of-type(1) {
+    box-shadow: 0 8px 0 0 wheat;       
+    position: relative;
+    
+}
+.card:nth-of-type(4) {
+    box-shadow: 0 8px 0 0 wheat;       
+    position: relative;
+    
+}
+.card:nth-of-type(2) {
+    box-shadow: 0 8px 0 0 orange;
+
+}
+.card:nth-of-type(5) {
+    box-shadow: 0 8px 0 0 orange;
+
+}
+.card:nth-of-type(3) {
+    box-shadow: 0 8px 0 0 orangered;
+}
+.card:nth-of-type(6) {
+    box-shadow: 0 8px 0 0 orangered;
 }
