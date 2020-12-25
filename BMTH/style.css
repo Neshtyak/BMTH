@@ -1,8 +1,6 @@
 body {
     margin: 0;
-    /* background: #000; */
     background-image: linear-gradient(black 70%, green);
-    /* background-image: linear-gradient(black 70%,rgb(90, 39, 18)); */
 }
 .up{
     width: 70px;
@@ -23,17 +21,15 @@ a{
     text-decoration: none;
 }
 .menu li{
-    /* border: 1px solid; */
     width: calc( 100% / 4);
     height: 70px;
     font: 25px sans-serif;
     text-align: center;
-    line-height: 50px; /* костыль типа шоб посредине было круто да */
+    line-height: 50px;
 }
 .menu a:hover{
     background-color:chocolate;
     display: block;
-    /* color: #000; */
 }
 .subMenu li{
     font-size: 20px;
@@ -47,7 +43,6 @@ a{
     
 }
 .box {
-    /* background: red; */
     min-height: 250px;
     margin: 0  0 10px;
     display: flex;
@@ -59,13 +54,9 @@ a{
     margin-bottom: 0;
 }
 .logo{
-    /* padding: 200px 30vw;
-    background: #000; */
     background-image: url(pic/Untitled1_1.gif);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center center;
-    /* background-size: cover; */
     height: 800px;
 }
 .description{
@@ -192,17 +183,13 @@ td{
     font-size: 15px;
     font-family: sans-serif;
 }
-
-
-
-                  /* album page*/
+                                    /* album page*/
 
 .subAlbums  li{
     width: calc(100% / 8);
 }
 .ms{
     min-height: 150px;
-    /* padding: 0 200px; */
 }
 .albumName{
     margin: 20px 20px 0;
@@ -212,12 +199,10 @@ td{
     font-size: 50px;
     color: chocolate;
     text-shadow: 2px 2px 2px wheat;
-    /* text-shadow: 2px 2px 4px rgb(0, 0, 0); */
 }
 .name2{
     color: wheat;
     text-shadow: 2px 2px 2px chocolate;
-    /* text-shadow: 2px 2px 4px rgb(0, 0, 0); */
 }
 .musicTo{
     font-size: 25px;
@@ -225,22 +210,18 @@ td{
 .date{
     margin: 100px 300px 0;
 }
-
 .frame{
     font-size: 40px;
     margin: 150px auto 200px;
     box-shadow: 5px 5px 0px wheat;
 }
-
 .bg{
     background-image: linear-gradient(black,rgb(89, 7, 7),black, black);
 }
-
 .wrapper{
     margin: 0 auto;
     width: 1500px;
 }
-
 .wrapperContacts{
     background-image: url(pic/black.jpg);
     background-repeat: no-repeat;
@@ -248,10 +229,10 @@ td{
     background-position: center bottom;
     background-size: cover;
     width: 100%;
-    min-height: 1750px;
+    min-height: 1500px;
 }
 
-                /* contact page */
+                                  /* contact page */
 .media{
     margin: 200px auto 0;
     width: 80%;
@@ -259,9 +240,6 @@ td{
 .media a{
    width: calc(100% / 5);
 }
-
-
-
 #members{
     height: 150px;
 }
@@ -274,14 +252,10 @@ td{
 .card {
     overflow: hidden;
     height: 350px;
-    /* width: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: cornsilk; */
-    /* border-radius: 10px; */
     filter: grayscale();
-    /* cursor: pointer; */
     transition: transform 0.2s 0s ease-in;  
 }
 .card h2 {
@@ -291,11 +265,8 @@ td{
 .card h3{
     text-align: center;
     color: forestgreen;
-    /* margin-top: 170px; */
     padding: 0 0;
     font-size: 35px;
-    /* transform: rotate(-90deg);
-    transform-origin: top left; */
 }
 .card img {
     max-width: 100%;
@@ -310,7 +281,6 @@ td{
 .card:hover img {
     opacity: 1;
 }
-
 .card:nth-of-type(1) {
     box-shadow: 0 8px 0 0 wheat;       
     position: relative;
